@@ -1,7 +1,7 @@
 
 function insertAfter(newElement,targetElement) {
     var pare = targetElement.parentNode;
-    if (para.lastChild == targetElement){
+    if (pare.lastChild == targetElement){
         pare.appendChild(newElement);
     }else{
         pare.insertBefore(newElement,targetElement.nextSibling);
